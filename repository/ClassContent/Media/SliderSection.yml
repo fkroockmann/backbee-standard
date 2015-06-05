@@ -1,0 +1,8 @@
+sliderSection:
+    extends: \BackBee\ClassContent\ContentSet
+    properties:
+        name: "Slides Section"
+        description: 'Slide slides section'
+        category: [!Media]
+    parameters:
+        accept: ['\BackBee\ClassContent\Media\SliderSlide']

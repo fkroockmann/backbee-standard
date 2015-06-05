@@ -1,0 +1,30 @@
+SliderSlide:
+    properties:
+        name: 'Slider Slide'
+        description: 'Slider Slide'
+        category: [!Media]
+    elements:
+        picture:
+            type: \BackBee\ClassContent\Media\Image
+            label: "Picture"
+            minentry: 1
+            maxentry: 1
+        content:
+            type: \BackBee\ClassContent\Element\Text
+            label: "Content"
+            default:
+                value: "[edit content]"
+            parameters:
+                rte: lite
+        checkitnow:
+            type: \BackBee\ClassContent\Element\Text
+            label: "Link Label"
+            default:
+                value: "Check it now!"
+            parameters:
+                rte: lite
+    parameters:
+        link:
+            type: linkSelector
+            label: 'Select the page to link this slide to (optional)'
+            value: []

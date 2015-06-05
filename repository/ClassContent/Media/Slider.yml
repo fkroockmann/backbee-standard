@@ -1,0 +1,9 @@
+slider:
+    properties:
+        name: "Slider"
+        description: "Slider containing image, text and link slides"
+        category: [Media]
+    elements:
+        slides:
+            type: \BackBee\ClassContent\Media\SliderSection
+            label: "Slides Section"

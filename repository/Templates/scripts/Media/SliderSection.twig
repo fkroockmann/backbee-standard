@@ -1,0 +1,5 @@
+<div {{ this.bbcontent(null, {'class': 'slider-list slider-has-pagination'})|raw }}>
+    {% for content in this.getObject() %}
+        {{ this.render(content)|raw }}
+    {% endfor %}
+</div>
