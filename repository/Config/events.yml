@@ -1,3 +1,6 @@
 block.categorylist.render:
   listeners:
     - [BackBee\Event\Listener\AutoblockListener, onRender]
+article.article.render:
+  listeners:
+    - [BackBee\Event\Listener\ArticleListener, onRender]
